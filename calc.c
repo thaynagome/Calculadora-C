@@ -28,7 +28,9 @@ int main (void){
             default:
                 printf("\nDigite uma opcao valida");
                 break;
-            
         }
-    }while();
+        printf("\n\t O resultado e: %0.2f", resultado);
+        printf("\n Digite 1 para continuar: ");
+        scanf("%i", &op);
+    }while(op==1);
 }
